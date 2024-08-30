@@ -7,6 +7,7 @@
 .container {
   margin: 0 auto;
   max-width: 1248px;
+  padding: 0 64px;
 }
 
 .header {
@@ -186,11 +187,14 @@
   .titleBlock {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 85px;
   }
 
   .titleTextBlock {
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin: 46px 0 0 0;
 
     .usersAmount {
       display: flex;
@@ -323,8 +327,10 @@
 
   .titleImgBlock {
     display: flex;
-    width: 603.28px;
-    height: 540.57px;
+    width: 680.484px;
+    height: 607px;
     flex-shrink: 0;
+    background: url("./components/imgs/Hero.png");
+    right: 45px;
   }
 }
