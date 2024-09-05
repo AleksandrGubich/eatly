@@ -95,7 +95,7 @@
   </div>
   <div class="topRestaurants">
     <div class="container">
-      <div class="topRestarauntsInner">
+      <div class="topRestaurantsInner">
         <h2>Our Top <span>Restaurants</span></h2>
         <div class="topRestList"></div>
       </div>
@@ -111,21 +111,18 @@
         foodType: "Healthy",
         delivery: "24min",
         rating: "4.8",
-        img: "./components/imgs/ChickenKing.png",
       },
       {
         name: "The Burger King",
         foodType: "Trending",
         delivery: "24min",
         rating: "4.9",
-        img: "./components/imgs/BurgerKing.png",
       },
       {
         name: "The Chicken King",
         foodType: "Healthy",
         delivery: "24min",
         rating: "4.8",
-        img: "./components/imgs/ChickenKing.png",
       },
     ];
 
@@ -136,7 +133,6 @@
       restaurantDiv.classList.add("restaurant");
 
       restaurantDiv.innerHTML = `
-        <img src="${restaurant.img}" alt="${restaurant.name}">
         <p class="${restaurant.foodType}">${restaurant.foodType}</p>
         <p class="restName">${restaurant.name}</p>`;
 
